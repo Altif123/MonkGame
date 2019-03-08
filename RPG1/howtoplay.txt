@@ -6,3 +6,13 @@ HH   HH  oooo    ww  ww     tttt  oooo   pp      lll  aaa aa      yy
                                          pp                   yyyyy 
 -----------------------------------------------------------------------
 
+Welcome to Monk! In this game, your primary objective is to find the
+trasure room located deep within the maze!
+
+You may encounter goblins on your journey, so watch out! Equip yourself
+with weapons and refill your health by finding pickups
+throughout your exploration.
+
+Careful! Don't get slain by a goblin, otherwise it's game over! 
+
+Press any key to return to the main menu...

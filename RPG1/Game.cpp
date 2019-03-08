@@ -3,6 +3,7 @@
 
 #include "pch.h"
 #include "Game.h"
+#include <Windows.h>
 
 using namespace std;
 
@@ -55,12 +56,15 @@ void Game::startup() {
 void Game::help() {
 	
 	read("howtoplay.txt");
+	_getch();
+	menu();
+	
 }
 
 void Game::menu() {
 
 	cout << "Menu" << endl;
-	cout << "0:end the game" << endl;
+	cout << "0: End the game" << endl;
 	cout << "1:Start game" << endl;
 	cout << "2:print details" << endl;
 	cout << "3:Enter number of levels" << endl;
