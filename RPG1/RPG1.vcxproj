@@ -177,6 +177,10 @@
   <ItemGroup>
     <ResourceCompile Include="RPG1.rc" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="story2.txt" />
+    <Text Include="story1.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -6,6 +6,8 @@
 #include <fstream>
 #include <conio.h>
 #include <stdlib.h>
+#include <chrono>
+#include <thread>
 
 class Game
 {
@@ -18,6 +20,8 @@ public:
 	void read(string filename);
 	void startup();
 	void help ();
+
+	void storyBoard();
 
 
 	//operators 

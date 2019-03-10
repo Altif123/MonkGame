@@ -60,6 +60,15 @@ void Game::help() {
 	menu();
 	
 }
+void Game::storyBoard() {//sets the story
+	read("story1.txt");
+	Sleep(2000); // pauses for 1 seconds
+	system("CLS");
+	read("story2.txt");
+	Sleep(2000); // pauses for 1 seconds
+	system("CLS");
+
+}
 
 void Game::menu() {
 
