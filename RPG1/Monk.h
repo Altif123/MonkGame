@@ -11,6 +11,7 @@ public:
 
 	//methods
 	void initialise(string name, string desc);
+	void onScreenDetails();
 	void printDetails() const;
 	
 

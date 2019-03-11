@@ -26,7 +26,7 @@ public:
 
 	//operators 
 
-	//vairables
+	//variables
 
 	//getters
 	inline bool getPlaying() const {return this->playing;}

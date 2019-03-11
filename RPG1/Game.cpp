@@ -89,7 +89,7 @@ void Game::menu() {
 		playing = false;
 		break;
 	case 1:
-		//call method
+		monk.onScreenDetails();
 		break;
 	case 2:
 		monk.printDetails();

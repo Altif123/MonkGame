@@ -33,11 +33,21 @@ void Monk::initialise(string name, string desc) {//
 void Monk::printDetails()const {
 
 	cout << "Monk Name :" << this->name << endl;
-	cout << "Monk Description :" << this->desc<< endl;//pointers to character 
+	cout << "Monk Description :" << this->desc << endl;//pointers to character 
 	cout << "HP :" << this->hp << endl;
+}
 
 
-	
+
+void Monk::onScreenDetails() {
+	cout << "Monk Name :" << this->name;
+	cout << "  |HP :" << this->hp;
+	cout << "  |AP :" << this->attackpoint;
+
+
 
 }
+	
+
+
 
