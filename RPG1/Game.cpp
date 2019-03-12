@@ -4,6 +4,8 @@
 #include "pch.h"
 #include "Game.h"
 #include <Windows.h>
+#include "Goblin.h"
+
 
 using namespace std;
 
@@ -29,6 +31,8 @@ void Game::inName(){//initialises the monks name
 	getline(cin, desc);
 	cout << desc;
 	monk.initialise(name, desc);
+	goblin.initialise();
+	
 
 
 	
@@ -67,6 +71,7 @@ void Game::storyBoard() {//sets the story
 	read("story2.txt");
 	Sleep(2000); // pauses for 1 seconds
 	system("CLS");
+	 
 
 }
 
@@ -93,6 +98,7 @@ void Game::menu() {
 		break;
 	case 2:
 		monk.printDetails();
+		goblin.printDetails();
 		break;
 	case 3:
 		//call method

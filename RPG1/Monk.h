@@ -1,9 +1,10 @@
 #pragma once
 #include <string>
 #include <iostream>
+#include "Character.h"
 using namespace std;
 
-class Monk
+class Monk : public Character
 {
 public:
 	Monk();
@@ -13,45 +14,45 @@ public:
 	void initialise(string name, string desc);
 	void onScreenDetails();
 	void printDetails() const;
+	void pray();
+	// startGame();
 	
 
 	//getters 
 	
-
 	const std::string& getName() const {//creates reference to the vairaible name 
 		return this->name;
-	}
-	const std::string& getDesc() const {//creates reference to the vairaible name 
-		return this->desc;
 	}
 	const int& getHp() const {//creates reference to the vairaible hp
 		return this->hp;
 	}
-	const int& getMaxhp() const {//creates reference to the vairaible max hp
-		return this->maxhp;
+	
+	const std::string& getDesc() const {//creates reference to the vairaible name 
+		return this->desc;
 	}
+
 	const int& getAttackpoint() const {//creates reference to the vairaible attack points 
 		return this->attackpoint;
 	}
 	const int& getSheild() const {//creates reference to the vairaible attack oints 
 		return this->sheild;
 	}
-	const int& getDifficulty() const {//creates reference to the vairaible attack oints 
-		return this->difficulty;
-	}
-
-	//setters
 	
 
+	//setters
+	const int& sethp() const {//creates reference to the vairaible attack oints 
+		return this->hp;
+	}
+	
+//vairables 
 private:
 
 	string name;
 	string desc;
 	int hp;
-	int maxhp;
 	int attackpoint;
 	int sheild;
-	int difficulty;
+
 
 };
 

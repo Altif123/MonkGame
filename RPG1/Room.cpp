@@ -11,6 +11,14 @@
 }
 //getters
 
+ /*
+ if number less than 
+ then generate this type of room 
+ if room with 3 goblins loop 3 times
+ 
+ 
+ */
+
 //setters
 Room::Room()
 {

@@ -10,3 +10,11 @@ Character::Character()
 Character::~Character()
 {
 }
+
+void Character::defend()
+{
+}
+
+void Character::attack()
+{
+}

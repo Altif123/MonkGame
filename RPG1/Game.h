@@ -8,6 +8,8 @@
 #include <stdlib.h>
 #include <chrono>
 #include <thread>
+#include "Monk.h"
+#include "Goblin.h"
 
 class Game
 {
@@ -37,6 +39,7 @@ private:
 	bool playing;
 
 	Monk monk;
+	Goblin goblin;
 
 };
 

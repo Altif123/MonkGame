@@ -19,6 +19,7 @@ int main()
 {
 	srand(time(NULL));
 	Game game;
+	
 	game.storyBoard();
 	game.startup();
 	game.inName();
