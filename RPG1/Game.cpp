@@ -61,7 +61,8 @@ void Game::help() {
 	
 	read("howtoplay.txt");
 	_getch();
-	menu();
+	menu();//takes user back to menu if any key pressed 
+
 	
 }
 void Game::storyBoard() {//sets the story
@@ -97,8 +98,16 @@ void Game::menu() {
 		monk.onScreenDetails();
 		break;
 	case 2:
+		system("CLS");
+		read("Monk.txt");
 		monk.printDetails();
+	
+		read("Goblin.txt");
 		goblin.printDetails();
+		system("CLS");
+		cout << "Enter any character to go back to menu" << endl;
+		_getch();
+		menu();//takes user back to menu if any key pressed 
 		break;
 	case 3:
 		//call method

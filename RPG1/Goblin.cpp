@@ -33,4 +33,5 @@ void Goblin::printDetails()const {
 	cout << "HP :" << this->hp << endl;
 	cout << "AP :" << this->attackpoint << endl;
 
+
 }

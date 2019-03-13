@@ -81,5 +81,11 @@
     <Text Include="story1.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="Monk.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Goblin.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

@@ -13,16 +13,8 @@ public:
 
 	
 
-	//getters
-	const std::string& getName() const {//creates reference to the vairaible name 
-		return this->name;
-	}
-	const int& getHp() const {//creates reference to the vairaible hp
-		return this->hp;
-	}
-	const int& getAttackpoint() const {//creates reference to the vairaible attack points 
-		return this->attackpoint;
-	}
+	//getters inherited from Character class
+	
 	
 
 
